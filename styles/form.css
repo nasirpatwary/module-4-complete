@@ -1,0 +1,19 @@
+form > label{
+   display: block;
+   margin-bottom: 10px;
+}
+nav> ul{
+   display: flex;
+}
+nav li{
+   list-style: none;
+   margin-right: 15px;
+   padding: 5px;
+}
+nav li a{
+   text-decoration: none;
+   color: black;
+}
+nav li:hover{
+   background-color: lightgray;
+}

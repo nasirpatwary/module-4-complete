@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title form section</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Please file up the form</h2>
+        <form>
+            <label for="name">Your Name:
+                <input type="text" id="name" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email:
+                <input type="text" id="email" placeholder="Your Email">
+            </label>
+            <label for="phone">Your Phone:
+                <input type="text" id="phone" placeholder="Your Phone">
+            </label>
+            <label for="password">Your Password:
+                <input type="text" id="password" placeholder="Your Password">
+            </label>
+            <fieldset>
+                <legend>Pitha Items</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for=" vapa">
+                    <input type="radio" name="pitha" id="vapa">Vapa
+                </label>
+                <label for="puri">
+                    <input type="radio" name="pitha" id="puri">Puri
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Select Items</legend>
+                    <label for="vorta">
+                        <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                    </label>
+                    <label for="chili">
+                        <input type="checkbox" name="vorta" id="chili">morice
+                    </label>
+                    <label for="fish">
+                        <input type="checkbox" name="vorta" id="fish">Fish
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Items</legend>
+                <textarea name="" id="" rows="10" cols="30  "></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>

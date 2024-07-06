@@ -1,0 +1,42 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    padding: 5px;
+    
+}
+nav li:hover > .dropdown{
+    display: block;
+    text-align: center;
+}
+div{
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+#explain{
+    color: tomato;
+}
+.module{
+    color: blueviolet;
+}
+
+.font{
+    color: blue;
+    font-size: larger;
+}
